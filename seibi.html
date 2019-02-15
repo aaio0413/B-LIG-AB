@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="福井の鈑金塗装会社。B-LIGは北陸一番の技術力で、あなたの車の鈑金塗装、カスタム塗装、修理を迅速かつ完璧に行います。"
+    />
+    <title>福井県の鈑金塗装・車両整備の作業内容 B-LIG｜北陸一の技術力</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link href="public/assets/css/main.css" type="text/css" rel="stylesheet" />
+    <link href="public/assets/css/reset.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <script>
+    if (screen.width < 426) {
+      window.location = "https://www.b-lig.jp/seibi-mobile.html"
+    }
+  </script>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light nav-bar"
+        id="navbarHeight"
+      >
+        <a href="index.html" class="brand-logo"
+          ><img class="main-logo" src="./public/assets/images/B-LIG white.png"
+        /></a>
+        <button
+          class="navbar-toggler burger-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="burgerButton()"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse navbar-menu-items"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav" id="navUl">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                onclick="dropdown()"
+              >
+                Service
+              </a>
+              <div
+                class="dropdown-menu "
+                id="drop-down-system"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="./bannkin.html">鈑金塗装</a>
+                <a class="dropdown-item" href="./seibi.html">車両整備</a>
+                <a class="dropdown-item" href="./tosou.html">カスタム塗装</a>
+                <a class="dropdown-item" href="./sales.html">車両販売</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="logo-mobile">
+          <a href="index.html"><img class="main-logo" src="./public/assets/images/B-LIG white.png" /></a>
+      </div>
+      <div class="bannkin-head-component-wrapper seibi-page-addition"></div>
+      <div class="service-title-img-wrapper">
+        <img
+          class="bannkin-img seibi-img"
+          src="./public/assets/images/e3d543b1f6e273fb9cc13f8aa3efa237_s copy.jpg"
+        />
+      </div>
+    </header>
+    <div class="bannkin-service-wrapper justify-center">
+
+        <!-- <h1><span>車両整備</span></h1> -->
+        <h3><strong>お車の整備について</strong></h3>
+        <div class="button-wrappers">
+          <a href="tel:0776978533" class="btn btn-danger ask-button"
+            ><span class="inside-button">
+              <i class="fas fa-mobile-alt fa-2x"></i> 電話でお問い合わせ
+            </span></a
+          >
+          <a
+            href="mailto:blig0417@gmail.com"
+            class="btn btn-primary ask-button"
+            ><span class="inside-button" href="mailto:blig0417@gmail.com">
+              <i class="far fa-envelope fa-2x"></i> Eメールでお問い合わせ
+            </span></a
+          >
+        </div>
+
+        <div class="service-text-wrapper">
+          <p>
+            自動車のあらゆるトラブルシューティングに対処し、アドバイスを行い、<strong>専門のスタッフ・整備士</strong>が真心を持って対応させていただいております。愛車を安全快適に乗り続けるために、<em>定期的に車検</em>を行うことが義務付けられています。<strong>ディーラー車検よりも低価格</strong>で、ディーラー車検と同様に法的点検箇所は全て点検・分解し部品交換をする前に、かならずお客様にご相談した上で車検整備を行います。車検後にも12ヶ月点検や6ヶ月点検を行うことで愛車を長く快適に乗ることが可能です。こまめに点検しておくと突然のトラブルもおきにくくなります。
+          </p>
+        </div>
+
+        <h1></h1>
+      </div>
+    </div>
+
+    <footer id="footerLaptop" class="black-foot">
+      <div class="footer-wrapper">
+        <div class="component-wrapper-left">
+          <a class="link-white" href="index.html"
+            ><img
+              class="logo-image"
+              src="./public/assets/images/B-LIG white.png"
+          /></a>
+          <div class="icon-wrapper">
+            <ul>
+              <!-- <li class="icon">
+                <a
+                  href="https://www.linkedin.com/in/takahiro-kawaguchi-972aa2134/"
+                >
+                  <i class="fab fa-linkedin fa-2x" alt="linkedin icon"></i>
+                </a>
+              </li> -->
+              <li class="icon">
+                <a href="https://www.facebook.com/B-Lig%E9%88%91%E9%87%91%E5%A1%97%E8%A3%85-1120414608133058/">
+                  <i
+                    class="fab fa-facebook-square fa-2x"
+                    alt="facebook icon"
+                  ></i>
+                </a>
+              </li>
+              <li class="icon">
+                <a href="https://twitter.com/aaio_0413">
+                  <i class="fab fa-twitter-square fa-2x" alt="twitter icon"></i>
+                </a>
+              </li>
+              <li class="icon">
+                <a href=""> <i class="fab fa-instagram fa-2x"></i> </a>
+              </li>
+              <li class="icon">
+                <a href="https://line.me/R/ti/p/%40cwt1442e"> <i class="fab fa-line fa-2x"></i> </a>
+              </li>
+              <!--
+                <li class="icon">
+                  <a href=""> <i class="far fa-envelope fa-2x"></i> </a>
+                </li>
+              -->
+            </ul>
+          </div>
+        </div>
+        <div class="component-wrapper-right">
+          <div class="location">
+            <!-- <p class='contact-title'>Contact</p> -->
+            <p><a href="https://goo.gl/maps/qEE5tEJZRH82">〒910-0109</a></p>
+            <p>
+              <a href="https://goo.gl/maps/qEE5tEJZRH82"
+                ><em>福井県福井市二日市町20-21-1</em></a
+              >
+            </p>
+            <p>
+              <i class="fas fa-phone"></i>店舗：<a href="tel:0776978533">
+                0776-97-8533</a
+              >
+            </p>
+            <p><i class="fas fa-fax"></i>FAX： 0776-97-8503</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer id="mobileFoot" class="mobile-footer">
+      <div class="footer-logo">
+        <a class="link-white" href="index.html"
+          ><img class="logo-image" src="./public/assets/images/B-LIG white.png"
+        /></a>
+      </div>
+
+      <div class="address-wrapper-mobile">
+        <p>
+          <i class="fas fa-phone"></i>店舗：<a href="tel:0776978533">
+            0776-97-8533
+          </a>
+          <br class="appear-small-screen" />
+          <i class="fas fa-fax"></i>FAX： 0776-97-8503 <br />
+          <i class="fas fa-map-marker-alt"></i>住所：<a
+            href="https://goo.gl/maps/qEE5tEJZRH82"
+            >〒910-0109 <em>福井県福井市二日市町20-21-1</em></a
+          >
+        </p>
+      </div>
+
+      <div class="icon-wrapper-mobile">
+        <ul>
+          <!-- <li class="icon">
+            <a href="">
+              <i class="fab fa-linkedin fa-2x" alt="linkedin icon"></i>
+            </a>
+          </li> -->
+          <li class="icon">
+            <a href="https://www.facebook.com/B-Lig%E9%88%91%E9%87%91%E5%A1%97%E8%A3%85-1120414608133058/">
+              <i class="fab fa-facebook-square fa-2x" alt="facebook icon"></i>
+            </a>
+          </li>
+          <li class="icon">
+            <a href="">
+              <i class="fab fa-twitter-square fa-2x" alt="twitter icon"></i>
+            </a>
+          </li>
+          <li class="icon">
+            <a href=""> <i class="fab fa-instagram fa-2x"></i> </a>
+          </li>
+          <li class="icon">
+            <a href="https://line.me/R/ti/p/%40cwt1442e"> <i class="fab fa-line fa-2x"></i> </a>
+          </li>
+          <!--
+            <li class="icon">
+              <a href=""> <i class="far fa-envelope fa-2x"></i> </a>
+            </li>
+          -->
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="./public/assets/javascript/main.js"></script>
+</html>

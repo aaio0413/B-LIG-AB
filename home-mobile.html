@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="福井の鈑金塗装会社。B-LIGは北陸一番の技術力で、あなたの車の鈑金塗装、カスタム塗装、修理を迅速かつ完璧に行います。ホームページ"
+    />
+    <title>福井県の鈑金塗装、車両整備、販売 B-LIG｜北陸一の技術力</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link href="public/assets/css/main.css" type="text/css" rel="stylesheet" />
+    <link href="public/assets/css/reset.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light nav-bar"
+        id="navbarHeight"
+      >
+        <div class="brand-logo forDevelopers">
+          <!-- Do you wanna work with me? I'm a freelance developer. -->
+        </div>
+
+        <button
+          class="navbar-toggler burger-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="burgerButton()"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse navbar-menu-items"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav" id="navUl">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About Us</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                onclick="dropdown()"
+              >
+                Service
+              </a>
+              <div
+                class="dropdown-menu "
+                id="drop-down-system"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="./bannkin.html">鈑金塗装</a>
+                <a class="dropdown-item" href="./seibi.html">車両整備</a>
+                <a class="dropdown-item" href="./tosou.html">カスタム塗装</a>
+                <a class="dropdown-item" href="./sales.html">車両販売</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="logo-mobile">
+        <a href="index.html"><img class="main-logo" src="./public/assets/images/B-LIG white.png" /></a>
+      </div>
+
+      <div class="head-component-wrapper">
+        <div class="main-title-wrapper">
+          <!-- <h1>B-LIG 鈑金塗装</h1> -->
+          <img class="main-logo" src="./public/assets/images/B-LIG white.png" />
+        </div>
+        <div class="second-title-wrapper">
+          <p>
+            <strong
+              >車の鈑金塗装、カスタム塗装、車両販売、車検からちょっとしたお車の整備・点検まで、</strong
+            >お車のことならなんでもお任せください。車業界30年のプロのスタッフがご対応させていただきます。
+          </p>
+        </div>
+      </div>
+      <!-- <div class="two-button-wrapper">
+        <button class="toiawase-button">
+          <a href="tel:0776978533">電話をかけて相談・問い合わせる</a>
+        </button>
+        <button class="toiawase-button">
+          <a href="mailto:blig0417@gmail.co">Eメールでのご相談・問い合わせ</a>
+        </button>
+      </div> -->
+    </header>
+
+    <div id="top-buttons" class="button-wrappers main-buttons">
+        <a href="tel:0776978533" class="btn btn-danger ask-button"><span class='inside-button'>
+            <i class="fas fa-mobile-alt fa-2x"></i>
+            電話でお問い合わせ
+        </span></a>
+        <a href="mailto:blig0417@gmail.com" class="btn btn-primary ask-button"><span class='inside-button' href="mailto:blig0417@gmail.com">
+            <i class="far fa-envelope fa-2x"></i>
+            Eメールでお問い合わせ
+        </span></a>
+      </div>
+
+    <div class="service-component-wrapper justify-center">
+      <div class="service-component">
+        <h1 class="service-title"><span>Service</span></h1>
+        <a href="line-step.html" id="line-mitumori-link"><img src="public/assets/images/line/line-mitumori.png" style="width: 36%;"/></a>
+        <!-- <h1 class="service-title-laptop">LINEで簡単お見積もり！</h1> -->
+        <ul class="service-img-wrapper">
+          <li class="service-img">
+            <a alt href="./line-step.html"
+              ><img src="./public/assets/images/1.jpg" class="mitumori-img" 
+            /></a>
+            <!-- <div class="text-wrapper">
+              <a class="service-link" href="./bannkin.html">鈑金</a>
+            </div> -->
+          </li>
+          <li class="service-img">
+            <a alt href="./line-step.html"
+              ><img src="./public/assets/images/2.jpg" class="mitumori-img" 
+            /></a>
+            <!-- <div class="text-wrapper">
+              <a class="service-link" href="./tosou.html">塗装</a>
+            </div> -->
+          </li>
+          <li class="service-img">
+            <a alt href="./line-step.html"
+              ><img src="./public/assets/images/3.jpg" class="mitumori-img" 
+            /></a>
+            <!-- <div class="text-wrapper">
+              <a class="service-link" href="./seibi.html">車両整備</a>
+            </div> -->
+          </li>
+          <li class="service-img">
+            <a alt href="./line-step.html"
+              ><img src="./public/assets/images/ドア周り傷・凹み.jpg" class="mitumori-img" 
+            /></a>
+            <!-- <div class="text-wrapper">
+              <a class="service-link" href="./sales.html">車両販売</a>
+            </div> -->
+
+            <!--
+              </li>
+              <li class="service-img">
+                <a alt href><img src="https://via.placeholder.com/150"/></a>
+              </li>
+              <li class="service-img">
+                <a alt href><img src="https://via.placeholder.com/150"/></a>
+              </li>
+            -->
+          </li>
+        </ul>
+
+        <ul class="service-img-mobile">
+          <li class="service-item-mobile">
+            <a alt href="./bannkin.html"
+              ><img src="./public/assets/images/home/板金塗装.png" style="width: 100%;"
+            /></a>
+          </li>
+          <li class="service-item-mobile">
+            <a alt href="./seibi.html"
+              ><img src="./public/assets/images/home/車両整備.png" style="width: 100%;"
+            /></a>
+          </li>
+          <li class="service-item-mobile">
+            <a alt href="./sales.html"
+              ><img src="./public/assets/images/home/車両販売.png" style="width: 100%;"
+            /></a>
+          </li>
+          <li class="service-item-mobile" id="bottom-service-banner">
+            <a alt href="./tosou.html"
+              ><img src="./public/assets/images/home/カスタム塗装.png" style="width: 100%;"
+            /></a>
+          </li>
+
+            <!--
+              </li>
+              <li class="service-img">
+                <a alt href><img src="https://via.placeholder.com/150"/></a>
+              </li>
+              <li class="service-img">
+                <a alt href><img src="https://via.placeholder.com/150"/></a>
+              </li>
+            -->
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="line-mitumori-button-mobile">
+        <a href="line-step.html"><img src="public/assets/images/line/line見積もりバナー.png" style="width:100%"></a>
+    </div>
+
+    <img src="public/assets/images/home/B-LIGについて.png" alt="mobile b-lig について" style="width:100%; margin: 4% 0;" class="mobile-b-lig-nituite">
+    <h1 class="about-us-title" id="b-lig-nituite"><span><span class="b-lig-logo2"></span>について</span></h1>
+    <div id="aboutUs" class="aboutUs-component-wrapper">
+        <div class="component-row">
+          <div class="first-row-about-img">
+            <img class="about-us-pix" src="public/assets/images/ob9b4b5a59211f535f39f92b0e0d22d27_40443676_181226_0002 copy.jpg">
+            <img class="about-us-pix" src="public/assets/images/エコクリーン削除版.gif">
+          </div>
+        </div>
+        <div class="component-row">
+          <div class="about-us-para">
+              <p>
+                （株）<span class="b-lig-logo"></span>
+                は、<strong>福井県福井市</strong>で、<strong>鈑金塗装、カスタム塗装、新車・中古車販売・買取、車検、修理・整備、そして廃車手続きまで</strong>、車に関する全てのことを承っております。当社の<strong>車業界30年のプロ</strong>のスタッフがお客様のどのようなご要望にもご対応させていただきます。
+                あなたのお車を手厚く、そして幅広くバックアップ出来るのは一貫したサービスを提供できる当社の強みです。
+              </p>
+          </div>
+        </div>
+  
+        <div class="component-row">
+  
+            <img class="about-us-pix" src="public/assets/images/ob9b4b5a59211f535f39f92b0e0d22d27_40443676_181226_0004 copy.jpg">
+            <img class="about-us-pix" src="public/assets/images/ob9b4b5a59211f535f39f92b0e0d22d27_40443676_181226_0006 copy.jpg">
+          </div>
+          <div class="component-row">
+            <div class="about-us-para">
+                <p>
+                        当店は<strong>大手ディーラー、保険会社様</strong>のお墨付きでございます。ちょっとした小傷の修理から大きな鈑金作業まで、車を直すことに関しての設備が充実した自社工場だからこそ担える作業が多くございます。
+                        <strong>福井県で一番愛される</strong>町の車屋さんと言われるよう、日々精一杯勤めております。どんな作業にも手を抜かず、誠心誠意お客様のご要望に答えるべく、努力してまいります。
+                </p>
+            </div>
+          </div>
+  
+        <div id="busi-hour" class="component-row">
+          <img src="public/assets/images/home/営業時間.png" class="business-hour-img" style="width: 100%; margin: 3% 0;">
+          
+            <div class="hours text-center">
+              <p><strong>営業時間</strong></p>
+              <p>月曜日 9:00 〜 18:00</p>
+              <p>火曜日 9:00 〜 18:00</p>
+              <p>水曜日 9:00 〜 18:00</p>
+              <p>木曜日 9:00 〜 18:00</p>
+              <p>金曜日 9:00 〜 18:00</p>
+              <p><strong>定休日</strong></p>
+              <p><span class="busi-saturday">第２・４土</span>、<span class="busi-sunday">日曜日、祝日</span></p>
+     
+            </div> 
+            <img class="hours-img" src="public/assets/images/ob9b4b5a59211f535f39f92b0e0d22d27_40443676_181226_0009 copy.jpg">
+      
+        </div>
+      </div>
+
+
+    <footer id="footerLaptop" class="black-foot">
+      <div class="footer-wrapper">
+        <div class="component-wrapper-left">
+          <a class="link-white" href="./home-mobile.html"
+            ><img
+              class="logo-image"
+              src="./public/assets/images/B-LIG white.png"
+          /></a>
+          <div class="icon-wrapper">
+            <ul>
+              <!-- <li class="icon">
+                <a
+                  href="https://www.linkedin.com/in/takahiro-kawaguchi-972aa2134/"
+                >
+                  <i class="fab fa-linkedin fa-2x" alt="linkedin icon"></i>
+                </a>
+              </li> -->
+              <li class="icon">
+                <a href="">
+                  <i
+                    class="fab fa-facebook-square fa-2x"
+                    alt="facebook icon"
+                  ></i>
+                </a>
+              </li>
+              <li class="icon">
+                <a href="">
+                  <i class="fab fa-twitter-square fa-2x" alt="twitter icon"></i>
+                </a>
+              </li>
+              <li class="icon">
+                <a href=""> <i class="fab fa-instagram fa-2x"></i> </a>
+              </li>
+              <li class="icon">
+                <a href="https://line.me/R/ti/p/%40cwt1442e"> <i class="fab fa-line fa-2x"></i> </a>
+              </li>
+              <!--
+                <li class="icon">
+                  <a href=""> <i class="far fa-envelope fa-2x"></i> </a>
+                </li>
+              -->
+            </ul>
+          </div>
+        </div>
+        <div class="component-wrapper-right">
+          <div class="location">
+            <!-- <p class='contact-title'>Contact</p> -->
+            <p><a href="https://goo.gl/maps/qEE5tEJZRH82">〒910-0109</a></p>
+            <p>
+              <a href="https://goo.gl/maps/qEE5tEJZRH82"
+                ><em>福井県福井市二日市町20-21-1</em></a
+              >
+            </p>
+            <p>
+              <i class="fas fa-phone"></i>店舗：<a href="tel:0776978533">
+                0776-97-8533</a
+              >
+            </p>
+            <p><i class="fas fa-fax"></i>FAX： 0776-97-8503</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer id="mobileFoot" class="mobile-footer">
+      <div class="footer-logo">
+        <a class="link-white" href="index.html"
+          ><img class="logo-image" src="./public/assets/images/B-LIG white.png"
+        /></a>
+      </div>
+
+      <div class="address-wrapper-mobile">
+        <p>
+          <i class="fas fa-phone"></i>店舗：<a href="tel:0776978533">
+            0776-97-8533
+          </a>
+          <br class="appear-small-screen" />
+          <i class="fas fa-fax"></i>FAX： 0776-97-8503 <br />
+          <i class="fas fa-map-marker-alt"></i>住所：<a
+            href="https://goo.gl/maps/qEE5tEJZRH82"
+            >〒910-0109 <em>福井県福井市二日市町20-21-1</em></a
+          >
+        </p>
+      </div>
+
+      <div class="icon-wrapper-mobile">
+        <ul>
+          <!-- <li class="icon">
+            <a href="">
+              <i class="fab fa-linkedin fa-2x" alt="linkedin icon"></i>
+            </a>
+          </li> -->
+          <li class="icon">
+            <a href="https://www.facebook.com/B-Lig%E9%88%91%E9%87%91%E5%A1%97%E8%A3%85-1120414608133058/">
+              <i class="fab fa-facebook-square fa-2x" alt="facebook icon"></i>
+            </a>
+          </li>
+          <li class="icon">
+            <a href="">
+              <i class="fab fa-twitter-square fa-2x" alt="twitter icon"></i>
+            </a>
+          </li>
+          <li class="icon">
+            <a href=""> <i class="fab fa-instagram fa-2x"></i> </a>
+          </li>
+          <li class="icon">
+            <a href="https://line.me/R/ti/p/%40cwt1442e"> <i class="fab fa-line fa-2x"></i> </a>
+          </li>
+          <!--
+            <li class="icon">
+              <a href=""> <i class="far fa-envelope fa-2x"></i> </a>
+            </li>
+          -->
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="./public/assets/javascript/main.js"></script>
+</html>

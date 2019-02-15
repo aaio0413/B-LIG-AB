@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="福井の鈑金塗装会社B-LIG。LINEでの簡単見積もりサービス"
+    />
+    <title>福井県の鈑金塗装。B-LIG｜LINE簡単見積もり</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <link href="public/assets/css/main.css" type="text/css" rel="stylesheet" />
+    <link href="public/assets/css/reset.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+        <nav
+        class="navbar navbar-expand-lg navbar-light nav-bar line-menu"
+        id="navbarHeight"
+      >
+        <a href="index.html" class="brand-logo"
+          ><img class="main-logo" src="./public/assets/images/B-LIG white.png"
+        /></a>
+        <button
+          class="navbar-toggler burger-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="burgerButton()"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse navbar-menu-items"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav" id="navUl">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                onclick="dropdown()"
+              >
+                Service
+              </a>
+              <div
+                class="dropdown-menu "
+                id="drop-down-system"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="./bannkin.html">鈑金塗装</a>
+                <a class="dropdown-item" href="./seibi.html">車両整備</a>
+                <a class="dropdown-item" href="./tosou.html">カスタム塗装</a>
+                <a class="dropdown-item" href="./sales.html">車両販売</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="logo-mobile">
+            <a href="index.html"><img class="main-logo" src="./public/assets/images/B-LIG white.png" /></a>
+      </div>
+      <div class=""></div>
+      
+      <!-- <div class='service-title-img-wrapper'> -->
+          <!-- <img class="bannkin-img" src="./public/assets/images/ob9b4b5a59211f535f39f92b0e0d22d27_40443676_181226_0003 copy.jpg"> -->
+      <!-- </div> -->
+    </header>
+    <!-- <div class='service-title-img-wrapper'>
+        <img class="bannkin-img" src="./public/assets/images/ob9b4b5a59211f535f39f92b0e0d22d27_40443676_181226_0003 copy.jpg">
+    </div> -->
+    <img src="public/assets/images/line/top.png" class="line-main-image-mobile">
+    <div class="line-contents-wrapper justify-center">
+        <img src="public/assets/images/line/line-main-image.gif" class="line-main-image-pc">
+        
+        <div class="text-center" href="#addFriends">
+                
+                <img src="public/assets/images/line/line-warry.gif" class="line-worry">
+        </div>
+        
+        <div class="text-center line-instruction-img">
+            <img src="public/assets/images/line/line-step-instruction.gif" style="width: 88%;">
+        </div>
+
+        <img src="public/assets/images/line/１.png" class="step1-bar">
+        
+        <div class="text-center line-step1">
+            <img src="public/assets/images/line/step1.png" class="step1-img">
+        </div>
+        
+        <div id="addFriends" class="line-adding-wrapper">
+            <div class='line-component text-center'>
+                <img id="line-mobile" src="public/assets/images/line/line-smartphone.gif" alt="LINE友達追加">
+                <p class="line-add-friend-lead">[友だち追加]ボタンをタップ</p>
+                <div class='qr-code-wrap'>
+                        <a href="https://line.me/R/ti/p/%40cwt1442e"><img src="public/assets/images/line/line-add-friend-btn.gif" alt="LINE友達追加ボタン" class="line-friend-add-btn"></a>
+                </div>
+                
+            </div>
+            <div id="qr-code-pc" class='line-component text-center'>
+                    <img src="public/assets/images/line/line-pc.gif">
+                    <p class="line-add-friend-lead">下記の【QRコード】をスマホで読み込む</p>
+                    <div class="qr-code-wrap">
+                        <img src="public/assets/images/line/line-qr-code.png" style="height: 100%;">
+                    </div>
+                    
+            </div>
+        </div>
+
+        <div class="text-center line-last-step-lead">
+                <p style="margin-bottom: unset;">友達を追加すると、プッシュ通知が届きます。</p> 
+                <p style="margin-bottom: 2.4rem;">そのままスマホのカメラで、<strong>お車の直したい箇所や車検証など</strong>を撮って送信してください。</p>
+        </div>
+        
+        <img src="public/assets/images/line/２.png" class="step2-bar">
+
+        <div class="text-center line-step1">
+                <img src="public/assets/images/line/step2.png" class="step1-img">
+                <p class="line-second-comment">写真以外に具体的なご説明がある方は、メッセージを付け加えて送信してください。</p>
+
+        </div>
+
+        <!-- <div class="text-center line-last-img-wrapper">
+            <img src="public/assets/images/line/line-content-img.png">
+        </div> -->
+        <img src="public/assets/images/line/３.png" class="step3-bar">
+        <div class="text-center last-step-lead-wrap">
+                <!-- <img src="public/assets/images/line/アセット 5.png" style="width: 100%;"> -->
+                <img src="public/assets/images/line/step3.png" class="step1-img">
+                <p class="line-last-comment">営業時間内であれば、通常<span style="color:red;">最短で３０分から１時間ほど</span>で返事が届きます。</p>
+        </div>
+
+    </div>
+ 
+
+    <footer id="footerLaptop" class="black-foot">
+      <div class="footer-wrapper">
+        <div class="component-wrapper-left">
+          <a class="link-white" href="index.html"
+            ><img
+              class="logo-image"
+              src="./public/assets/images/B-LIG white.png"
+          /></a>
+          <div class="icon-wrapper">
+            <ul>
+              <!-- <li class="icon">
+                <a
+                  href="https://www.linkedin.com/in/takahiro-kawaguchi-972aa2134/"
+                >
+                  <i class="fab fa-linkedin fa-2x" alt="linkedin icon"></i>
+                </a>
+              </li> -->
+              <li class="icon">
+                <a href="https://www.facebook.com/B-Lig%E9%88%91%E9%87%91%E5%A1%97%E8%A3%85-1120414608133058/">
+                  <i
+                    class="fab fa-facebook-square fa-2x"
+                    alt="facebook icon"
+                  ></i>
+                </a>
+              </li>
+              <li class="icon">
+                <a href="https://twitter.com/aaio_0413">
+                  <i class="fab fa-twitter-square fa-2x" alt="twitter icon"></i>
+                </a>
+              </li>
+              <li class="icon">
+                <a href=""> <i class="fab fa-instagram fa-2x"></i> </a>
+              </li>
+              <li class="icon">
+                <a href="https://line.me/R/ti/p/%40cwt1442e"> <i class="fab fa-line fa-2x"></i> </a>
+              </li>
+              <!-- <li class="icon">
+                <a href=""> <i class="far fa-envelope fa-2x"></i> </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="component-wrapper-right">
+          <div class="location">
+            <!-- <p class='contact-title'>Contact</p> -->
+            <p><a href="https://goo.gl/maps/qEE5tEJZRH82">〒910-0109</a></p>
+            <p>
+              <a href="https://goo.gl/maps/qEE5tEJZRH82"
+                ><em>福井県福井市二日市町20-21-1</em></a
+              >
+            </p>
+            <p>
+              <i class="fas fa-phone"></i>店舗：<a href="tel:0776978533">
+                0776-97-8533</a
+              >
+            </p>
+            <p><i class="fas fa-fax"></i>FAX： 0776-97-8503</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer id="mobileFoot" class="mobile-footer">
+      <div class="footer-logo">
+        <a class="link-white" href="index.html"
+          ><img class="logo-image" src="./public/assets/images/B-LIG white.png"
+        /></a>
+      </div>
+
+      <div class="address-wrapper-mobile">
+        <p>
+          <i class="fas fa-phone"></i>店舗：<a href="tel:0776978533">
+            0776-97-8533
+          </a>
+          <br class="appear-small-screen" />
+          <i class="fas fa-fax"></i>FAX： 0776-97-8503 <br />
+          <i class="fas fa-map-marker-alt"></i>住所：<a
+            href="https://goo.gl/maps/qEE5tEJZRH82"
+            >〒910-0109 <em>福井県福井市二日市町20-21-1</em></a
+          >
+        </p>
+      </div>
+
+      <div class="icon-wrapper-mobile">
+        <ul>
+          <!-- <li class="icon">
+            <a href="">
+              <i class="fab fa-linkedin fa-2x" alt="linkedin icon"></i>
+            </a>
+          </li> -->
+          <li class="icon">
+            <a href="https://www.facebook.com/B-Lig%E9%88%91%E9%87%91%E5%A1%97%E8%A3%85-1120414608133058/">
+              <i class="fab fa-facebook-square fa-2x" alt="facebook icon"></i>
+            </a>
+          </li>
+          <li class="icon">
+            <a href="">
+              <i class="fab fa-twitter-square fa-2x" alt="twitter icon"></i>
+            </a>
+          </li>
+          <li class="icon">
+            <a href=""> <i class="fab fa-instagram fa-2x"></i> </a>
+          </li>
+          <li class="icon">
+            <a href="https://line.me/R/ti/p/%40cwt1442e"> <i class="fab fa-line fa-2x"></i> </a>
+          </li>
+          <!-- <li class="icon">
+            <a href=""> <i class="far fa-envelope fa-2x"></i> </a>
+          </li> -->
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="./public/assets/javascript/main.js"></script>
+</html>
